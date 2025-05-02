@@ -35,6 +35,7 @@ Prima di iniziare, assicurati di avere installato:
   
   bash
   npm ci
+  
   **Istruzioni di utilizzo**:
   Per avviare l'applicazione con calc.js, utilizza il comando:
   
@@ -49,7 +50,7 @@ Prima di iniziare, assicurati di avere installato:
   npm test
   Il report di coverage verrà generato automaticamente nella directory coverage.
   
-  ##CI/Pipeline
+   ## CI/Pipeline
   Il progetto utilizza GitHub Actions per automatizzare i test e il caricamento del report di coverage. La pipeline viene eseguita automaticamente nei seguenti casi:
   
   Push: Ogni modifica al branch main.
