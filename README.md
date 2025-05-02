@@ -66,6 +66,9 @@ Prima di iniziare, assicurati di avere installato:
   Setup di Node.js con caching delle dipendenze.
   
   Installazione delle dipendenze con npm ci.
+  
   Esecuzione dei test con Jest.
+  
   Generazione e caricamento del report di code coverage come artefatto.
+  
   Puoi trovare il file di configurazione della pipeline nel percorso .github/workflows/main.yml.
