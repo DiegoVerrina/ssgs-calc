@@ -41,6 +41,7 @@ Prima di iniziare, assicurati di avere installato:
   
   bash
   npm start
+  
   L'applicazione verrà eseguita in modalità CLI e ti permetterà di eseguire operazioni matematiche.
   
   **Istruzioni per eseguire i test**:
@@ -48,16 +49,22 @@ Prima di iniziare, assicurati di avere installato:
   
   bash
   npm test
+  
   Il report di coverage verrà generato automaticamente nella directory coverage.
   
    ## CI/Pipeline
   Il progetto utilizza GitHub Actions per automatizzare i test e il caricamento del report di coverage. La pipeline viene eseguita automaticamente nei seguenti casi:
   
   Push: Ogni modifica al branch main.
+  
   Pull Request: Ogni pull request verso il branch main.
+  
   Passaggi della pipeline
+  
   Checkout del codice dal repository.
+  
   Setup di Node.js con caching delle dipendenze.
+  
   Installazione delle dipendenze con npm ci.
   Esecuzione dei test con Jest.
   Generazione e caricamento del report di code coverage come artefatto.
