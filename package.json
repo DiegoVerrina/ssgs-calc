@@ -2,15 +2,26 @@
   "name": "ssgs-calc",
   "version": "1.0.0",
   "main": "calc.js",
+  "engines": {
+    "node": "18.0"
+  },
   "scripts": {
     "start": "node calc.js",
     "test": "jest --coverage"
   },
-  "keywords": [],
+  "keywords": ["calcolatrice", "nodejs", "math", "jest", "ci/cd", "github-actions", "calculator"],
   "author": "Diego Verrina",
   "license": "ISC",
-  "description": "",
+  "description": "progetto che implementa una semplice calcolatrice in node js con relativi test e coverage con jest e una pipelina di CI/CD su github actions",
+  "repository": {
+    "type": "git",
+    "homepage": "https://github.com/DiegoVerrina/ssgs-calc"},
+
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/DiegoVerrina/ssgs-calc/issues"
+  } 
 }
+
